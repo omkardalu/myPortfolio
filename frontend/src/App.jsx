@@ -1,11 +1,12 @@
-import './App.css'
+import './App.css';
+import Header from './layout/Header/Header.jsx';
 
 function App() {
 
   return (
-    <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <div id='Portfolio'>
+      <Header />
+    </div>
   )
 }
 
