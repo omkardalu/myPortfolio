@@ -1,12 +1,11 @@
 const NavLinks = () => {
   return (
-    <nav className="flex">
+    <nav className="flex group">
       <p className="hidden max-sm:block">☰</p>
       <ul className="flex space-x-15 font-medium max-sm:hidden">
-        <li>Home</li>
-        <li>Projects</li>
-        <li>Blog</li>
-        <li>Contact</li>
+        <li className="cursor-pointer">Projects</li>
+        <li className="cursor-pointer">Blog</li>
+        <li className="cursor-pointer">Contact</li>
       </ul>
     </nav>
   )
