@@ -1,13 +1,13 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Header from "./layout/Header/Header.jsx";
-import HeroSection from "./components/HeroSection/Hero.jsx";
+import Home from "./pages/Home.jsx";
 function App() {
   return (
     <div id="Portfolio">
       <Header />
       <Routes>
-        <Route path="/" element={<HeroSection />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </div>
   );
