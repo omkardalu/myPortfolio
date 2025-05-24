@@ -3,7 +3,7 @@ const Projects = () => {
   const projects = [
     {
       name: "write&X",
-      img: "./public/images/write-x.png",
+      img: "./images/write-x.png",
       description:
         "A Blog posting website where users can login, create blogs,like,share, follow, search etc. with professional text formater  ",
       tools: "CSS, React, Express, sqlite3",
@@ -12,7 +12,7 @@ const Projects = () => {
     },
     {
       name: "Quiz time",
-      img: "./public/images/quiz-time.png",
+      img: "./images/quiz-time.png",
       description:
         "An interactive quiz application that allows users to test their knowledge, with features like timer, music and Score Board.",
       tools: "HTML, CSS, JavaScript",
@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       name: "window clone",
-      img: "./public/images/windows-clone.png",
+      img: "./images/windows-clone.png",
       description:
         "A windows desktop clone with File Explorer, start menu and taskbar with HTML and CSS",
       tools: "HTML, CSS",
@@ -30,7 +30,7 @@ const Projects = () => {
     },
     {
       name: "apple clone",
-      img: "./public/images/apple-clone.png",
+      img: "./images/apple-clone.png",
       description:
         "A clone of the Apple website's homepage UI, showcasing its products and features.",
       tools: "HTML, CSS",
@@ -39,7 +39,7 @@ const Projects = () => {
     },
     {
       name: "squareSpace clone",
-      img: "./public/images/squarespace-clone.png",
+      img: "./images/squarespace-clone.png",
       description:
         "A clone of the squarespace website homepage UI, showcasing its products and features.",
       tools: "HTML, CSS",
@@ -48,7 +48,7 @@ const Projects = () => {
     },
     {
       name: "flipkart clone",
-      img: "./public/images/flipkart-clone.png",
+      img: "./images/flipkart-clone.png",
       description:
         "A clone of the Flipkart website homepage UI, showcasing its products and features.",
       tools: "HTML, CSS",
