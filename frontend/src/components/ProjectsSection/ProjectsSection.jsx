@@ -5,7 +5,7 @@ const ProjectsSection = () => {
       id="projects-section"
       className="flex flex-col items-center text-4xl font-bold justify-center bg-gradient-to-tr from-[#cf81c1] to-[#ffd8b1] p-8"
     >
-      <h1>Projects</h1>
+      <h1 id="project-title">Projects</h1>
       <Projects />
     </section>
   );

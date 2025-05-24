@@ -14,10 +14,10 @@ const ProjectCard = ({ name, img, description, tools, link, github }) => {
       <p className="font-mono text-[0.9rem] ml-2">Built on: {tools}</p>
       <div className="flex w-full items-center justify-between p-3">
         <Link to={github} target="_blank">
-          <img className="mr-3 w-6" src={githubLogo} alt="github" />
+          <img title="visit github repo" className="mr-3 w-6" src={githubLogo} alt="github" />
         </Link>
         <Link to={link} target="_blank">
-          <img className="mr-3 w-4" src={upRightArrowLogo} alt="arrow" />
+          <img title="visit live" className="mr-3 w-4" src={upRightArrowLogo} alt="arrow" />
         </Link>
       </div>
     </section>
