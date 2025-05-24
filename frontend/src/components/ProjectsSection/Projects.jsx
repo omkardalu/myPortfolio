@@ -2,6 +2,15 @@ import ProjectCard from "./ProjectCard.jsx";
 const Projects = () => {
   const projects = [
     {
+      name: "Portfolio",
+      img: "./images/portfolio.png",
+      description:
+        "A Portfolio website that shows all my projects,skills and information  ",
+      tools: "tailwindCSS, React",
+      link: "https://omkar-x1nz.onrender.com/",
+      github: "https://github.com/omkardalu/myPortfolio",
+    },
+    {
       name: "write&X",
       img: "./images/write-x.png",
       description:

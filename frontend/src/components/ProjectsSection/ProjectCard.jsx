@@ -3,14 +3,10 @@ import githubLogo from "../../assets/images/github-logo.svg";
 import upRightArrowLogo from "../../assets/images/up-right-arrow.png";
 const ProjectCard = ({ name, img, description, tools, link, github }) => {
   return (
-    <section className="m-4 flex w-[350px] flex-col justify-center rounded-2xl bg-[#ffffff3c] p-4 shadow-2xl backdrop-blur-xs">
+    <section className="m-4 flex w-[350px] flex-col justify-center rounded-2xl border-2 border-transparent bg-[#ffffff3c] p-4 shadow-2xl backdrop-blur-xs hover:bg-[#ffffff5e] transition-all duration-300 ease-in-out">
       <div className="text-2xl capitalize">{name}</div>
-      <div className="mt-3 flex h-[180px] w-[100%] items-center justify-center overflow-hidden rounded-2xl shadow-2xl">
-        <img
-          className="h-full"
-          src={img}
-          alt={name}
-        />
+      <div className="mt-3 flex h-[180px] w-[100%] items-center justify-center overflow-hidden rounded-2xl border-2 border-transparent shadow-2xl">
+        <img className="h-full w-full object-cover" src={img} alt={name} />
       </div>
       <div className="mt-3 h-[100px] p-2 text-xl text-[0.9rem] font-[500] text-shadow-neutral-900">
         {description}
