@@ -34,8 +34,8 @@ const Projects = () => {
       description:
         "A windows desktop clone with File Explorer, start menu and taskbar with HTML and CSS",
       tools: "HTML, CSS",
-      link: "https://medium-clone-omkar.netlify.app/",
-      github: "https:github.com/omkardalu",
+      link: "https://omkardalu.github.io/windows-clone/",
+      github: "https://github.com/omkardalu/windows-clone",
     },
     {
       name: "apple clone",

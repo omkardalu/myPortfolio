@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <section id="herosection" className="flex h-screen items-center justify-center bg-gradient-to-br from-[#cf81c1] to-[#ffd8b1]">
       <div className="flex flex-col flex-wrap items-center justify-center gap-10 p-4 sm:flex-row">
-        <div className="flex h-[280px] w-[280px] flex-col items-center justify-center overflow-hidden rounded-full">
+        <div className="flex h-[280px] w-[280px] shadow-2xl border-transparent border-3 flex-col items-center justify-center overflow-hidden rounded-full">
           <img
             className="w-full object-cover"
             src={myPic}
