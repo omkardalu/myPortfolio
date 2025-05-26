@@ -2,10 +2,7 @@ import myPic from "../../assets/images/omkar.jpg";
 
 const HeroSection = () => {
   return (
-    <section
-      id="herosection"
-      className="flex h-screen items-center justify-center"
-    >
+    <section id="hero-section" className="flex mt-[-52px] h-screen items-center justify-center ">
       <div className="flex flex-col flex-wrap items-center justify-center gap-10 p-4 sm:flex-row">
         <div className="flex h-[280px] w-[280px] flex-col items-center justify-center overflow-hidden rounded-full border-3 border-transparent shadow-2xl">
           <img className="w-full object-cover" src={myPic} alt="Omkar" />

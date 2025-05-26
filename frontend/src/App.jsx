@@ -6,11 +6,14 @@ import Footer from "./layout/footer/Footer.jsx";
 import Blog from "./pages/Blog.jsx";
 function App() {
   return (
-    <section id="Portfolio" className="relative min-h-screen flex flex-col justify-between bg-gradient-to-br from-[#cf81c1] to-[#ffd8b1]">
+    <section
+      id="Portfolio"
+      className="relative flex min-h-screen flex-col justify-between bg-gradient-to-br from-[#d25eb1] to-[#f3c190] text-[#250d23]"
+    >
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path='/blog' element={<Blog />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
       <Footer />
     </section>
