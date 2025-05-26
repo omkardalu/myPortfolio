@@ -1,4 +1,3 @@
-import Blog from "./Blog.jsx";
 import BlogCard from "../components/blogs/BlogCard.jsx";
 const BlogPosts = () => {
 const blogs = [
@@ -11,6 +10,11 @@ const blogs = [
     title: "Tasks to complete the project",
     description: "This blog contains the tasks need to complete for this profolio.",
     link: "/blog/tasks"
+  },
+  {
+    title: "My reflection on the project",
+    description: "This blog contains my reflection on the project.",
+    link: "/blog/reflection"
   }
 ]
 const Blogs = blogs.map((blog, index) => {
@@ -18,7 +22,7 @@ const Blogs = blogs.map((blog, index) => {
     <BlogCard key={index} blog={blog} />)
 })
   return (
-    <section>
+    <section className=" align-middle grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 p-4">
       {Blogs}
     </section>
   )
