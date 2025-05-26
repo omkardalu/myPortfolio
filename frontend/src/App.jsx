@@ -5,6 +5,7 @@ import Home from "./pages/Home.jsx";
 import Footer from "./layout/footer/Footer.jsx";
 import BlogPosts from "./pages/BlogPosts.jsx";
 import Blog from "./pages/Blog.jsx";
+import Contact from "./pages/Contact.jsx";
 function App() {
   return (
     <section
@@ -15,7 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blogposts" element={<BlogPosts />} />
-        <Route path="/blog/:blog" element={<Blog />} />
+        <Route path="/blog/:blog" element={<Blog />} /> 
+        <Route path="/contact" element={<Contact />} /> 
       </Routes>
       <Footer />
     </section>

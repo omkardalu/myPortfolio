@@ -26,21 +26,23 @@ const NavLinks = () => {
         ></span>
       </button>
       <ul
-        className={`fixed max-sm:right-0.5 max-sm:left-0.5 max-sm:top-14 flex flex-col rounded-2xl bg-[#ffffffc2] backdrop-blur-xs font-bold max-sm:text-4xl shadow-md transition-all duration-300 sm:relative  sm:w-auto sm:flex-row sm:items-center sm:space-x-15 sm:bg-transparent sm:shadow-none ${open ? "flex" : "hidden"} z-20 sm:flex`}
+        className={`fixed flex flex-col bounce-once max-sm:bg-gradient-to-br from-[#d25eb1] to-[#f3c190] font-bold shadow-md backdrop-blur-3xl transition-all duration-300 max-sm:top-14 max-sm:right-0 max-sm:left-0 max-sm:text-4xl sm:relative sm:w-auto sm:flex-row sm:items-center sm:space-x-15 sm:bg-transparent sm:shadow-none ${open ? "flex" : "hidden"} z-20 sm:flex`}
       >
         <Link to={"/"} onClick={() => setOpen(false)}>
-          <li className="cursor-pointer rounded max-sm:px-5 max-sm:py-5 max-sm:border-b-1 ">
+          <li className="cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5">
             Projects
           </li>
         </Link>
         <Link to={"/blogposts"} onClick={() => setOpen(false)}>
-          <li className="cursor-pointer rounded max-sm:px-5 max-sm:py-5 max-sm:border-b-1 ">
+          <li className="cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5">
             Blog
           </li>
         </Link>
-        <li className="cursor-pointer rounded max-sm:px-5 max-sm:py-5 ">
-          Contact
-        </li>
+        <Link to={"/contact"} onClick={() => setOpen(false)}>
+          <li className="cursor-pointer rounded max-sm:px-5 max-sm:py-5">
+            Contact
+          </li>
+        </Link>
       </ul>
     </nav>
   );

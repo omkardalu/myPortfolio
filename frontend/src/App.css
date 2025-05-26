@@ -12,8 +12,26 @@
   background: #ffffff17;
 }
 
-/* Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: #54555761 transparent;
+}
+
+@keyframes bounce-once {
+  0% {
+    transform: translateY(-100%);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-50%);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+  100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+  }
+}
+
+.bounce-once {
+  animation: bounce-once 1s ease-in-out 1;
 }
