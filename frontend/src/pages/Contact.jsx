@@ -1,9 +1,24 @@
+import { useRef } from "react";
+
 const Contact = () => {
+  const headingRef = useRef(null);
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+    const data = {
+      name: formData.get('name'),
+      email: formData.get('email'),
+      message: formData.get('message'),
+    };
+    headingRef.current.innerText = "Thank you for your message!";
+    console.log(data);
+  };
   return (
     <section id="contact" className="p-4 bounce-up">
       <div className="mx-auto max-w-2xl rounded-lg bg-[#ffffff3c] p-6 shadow-xl backdrop-blur-xs">
-        <h1 className="mb-8 text-4xl font-bold text-inherit">Contact Me</h1>
-        <form className="space-y-6">
+        <h1 className="mb-8 text-4xl font-bold text-inherit" ref={headingRef}>Contact Me</h1>
+        <form onSubmit={handleSubmit} action={'contact'} className="space-y-6">
           <div>
             <label
               htmlFor="name"
