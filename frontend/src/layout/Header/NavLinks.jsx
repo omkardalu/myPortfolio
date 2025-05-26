@@ -33,7 +33,7 @@ const NavLinks = () => {
             Projects
           </li>
         </Link>
-        <Link to={"/blog"} onClick={() => setOpen(false)}>
+        <Link to={"/blogposts"} onClick={() => setOpen(false)}>
           <li className="cursor-pointer rounded max-sm:px-5 max-sm:py-5 max-sm:border-b-1 ">
             Blog
           </li>

@@ -1,18 +1,17 @@
-# **pull request** 
-
+# ***closed***
 I am **Omkar**
 
 I am developing this Portfolio to learn frontend development 
 
 I am using `React, Tailwindcss` 
 
-For version controling [git *clickable*], github
+For version controling git, github
 
 This is still in process. I don't understand how to do this markdown fully workable.
 
 # What i did -
-- I installed the [react-markdown](https://www.npmjs.com/package/react-markdown) 
 - *Setup* 
+- I installed the [react-markdown](https://www.npmjs.com/package/react-markdown) 
 - npm i react-markdown
 
 ```

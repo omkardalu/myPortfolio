@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import Header from "./layout/Header/Header.jsx";
 import Home from "./pages/Home.jsx";
 import Footer from "./layout/footer/Footer.jsx";
+import BlogPosts from "./pages/BlogPosts.jsx";
 import Blog from "./pages/Blog.jsx";
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blogposts" element={<BlogPosts />} />
+        <Route path="/blog/:blog" element={<Blog />} />
       </Routes>
       <Footer />
     </section>
