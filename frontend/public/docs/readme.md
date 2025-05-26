@@ -7,12 +7,13 @@ I am using `React, Tailwindcss`
 
 For version controling git, github
 
-This is still in process. I don't understand how to do this markdown fully workable.
+This is still in process. I don't understand how to do this markdown fully working.
 
 # What i did -
 - *Setup* 
 - I installed the [react-markdown](https://www.npmjs.com/package/react-markdown) 
-- npm i react-markdown
+- and used the compnent and added the prose class provided by tailwind also
+but still the headings and list are't styled at all.
 
 ```
 import content from 'file';
@@ -24,11 +25,5 @@ const blog = () => {
  )
 }
 ```
-
-| 1 | 2 |
-|---|---|
-| 3 | 4 |
-| 5 | 6 |
-
 but still its not working as expected
 ## *for source [**git**](https://github.com/omkardalu/myPortfolio/blob/main/frontend/src/pages/Blog.jsx)*

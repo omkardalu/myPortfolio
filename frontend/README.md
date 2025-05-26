@@ -1,12 +1,33 @@
-# React + Vite
+# Omkar's DevConnect Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 My personal developer portfolio built with React and TailwindCSS v4.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React (Vite)
+- Tailwind CSS 4
+- Markdown blog support
+- Deployed on Render
 
-## Expanding the ESLint configuration
+##  Live Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+👉 [omkar-x1nz.onrender.com](https://omkar-x1nz.onrender.com/)
+
+##  Blog Example
+
+- How I Built This Portfolio
+- Lessons from My First React Project
+
+##  Features
+
+- Responsive layout (mobile-first)
+- Clean UI, minimal design
+- Modular architecture
+- Blog system powered by Markdown
+
+##  Contact
+
+Want to connect? Hit me up on [LinkedIn](https://www.linkedin.com/in/omkar-dalu-004169301/) or drop a message on my [contact page](https://omkar-x1nz.onrender.com/contact).
+
+---
+
