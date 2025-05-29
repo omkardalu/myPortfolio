@@ -13,7 +13,7 @@ function App() {
       className="relative flex min-h-screen flex-col justify-between bg-gradient-to-br from-[#d25eb1] to-[#f3c190] text-[#250d23]"
     >
       <Header />
-      <main className="h-full grow-2 flex flex-col">
+      <main className="flex h-full grow-2 flex-col">
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/blogposts" element={<BlogPosts />} />

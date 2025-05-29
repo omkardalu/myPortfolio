@@ -14,8 +14,8 @@ const Blog = () => {
   }, []);
   return (
     <section className="py-8 px-4 flex items-center justify-center">
-      <div className="prose break-words flex-col justify-center max-w-full rounded-lg  border-2 border-transparent bg-[var(--card-bg)] p-8 shadow-2xl">
-        <ReactMarkdown
+      <div className=" bounce-up prose break-words flex-col justify-center max-w-full rounded-lg  border-2 border-transparent bg-[var(--card-bg-color)] p-8 shadow-2xl">
+        {content? <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={{
             h1: ({node, ...props}) =><> <h1 className="text-4xl font-semibold mt-4   mb-4" {...props} /><hr/></>,
@@ -33,7 +33,7 @@ const Blog = () => {
           }}
         >
           {content}
-        </ReactMarkdown>
+        </ReactMarkdown>:'Loading...'}
       </div>
     </section>
   );

@@ -6,18 +6,25 @@ const Contact = () => {
   const handleSubmit = (event) => {
     const formData = new FormData(event.target);
     const data = {
-      name: formData.get('name'),
-      email: formData.get('email'),
-      message: formData.get('message'),
+      name: formData.get("name"),
+      email: formData.get("email"),
+      message: formData.get("message"),
     };
     headingRef.current.innerText = "Thank you for your message!";
     console.log(data);
   };
   return (
-    <section id="contact" className="p-4 bounce-up my-auto">
-      <div className="mx-auto max-w-2xl rounded-lg bg-[var(--card-bg)] p-6 shadow-xl backdrop-blur-xs">
-        <h1 className="mb-8 text-4xl font-bold text-inherit" ref={headingRef}>Contact Me</h1>
-        <form onSubmit={handleSubmit} action={import.meta.env.VITE_FORMSPREE_URL} method='POST' className="space-y-6">
+    <section id="contact" className="bounce-up my-auto p-4">
+      <div className="mx-auto max-w-2xl rounded-lg bg-[var(--card-bg-color)] p-6 shadow-xl backdrop-blur-xs">
+        <h1 className="mb-8 text-4xl font-bold text-inherit" ref={headingRef}>
+          Contact Me
+        </h1>
+        <form
+          onSubmit={handleSubmit}
+          action={import.meta.env.VITE_FORMSPREE_URL}
+          method="POST"
+          className="space-y-6"
+        >
           <div>
             <label
               htmlFor="name"
@@ -65,7 +72,7 @@ const Contact = () => {
           </div>
           <button
             type="submit"
-            className="rounded-mdtransition-colors rounded-lg w-full bg-gradient-to-br from-[#f3c290c0] to-[#d25eb1c0] px-4 py-2 font-semibold text-white duration-200 hover:bg-gradient-to-br hover:from-[#d25eb1c0] hover:to-[#f3c290c0]"
+            className="rounded-mdtransition-colors w-full rounded-lg bg-gradient-to-br from-[#f3c290c0] to-[#d25eb1c0] px-4 py-2 font-semibold text-white duration-200 hover:bg-gradient-to-br hover:from-[#d25eb1c0] hover:to-[#f3c290c0]"
           >
             Send Message
           </button>

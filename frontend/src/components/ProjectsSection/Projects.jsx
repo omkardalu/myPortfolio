@@ -78,7 +78,7 @@ const Projects = () => {
   ));
   return (
     <section id="projects" className="mt-10">
-      <div className="flex grow flex-wrap items-center justify-center">
+      <div className="bounce-up flex grow flex-wrap items-center justify-center">
         {projectsList}
       </div>
     </section>

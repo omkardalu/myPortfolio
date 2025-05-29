@@ -23,9 +23,9 @@ const BlogPosts = () => {
     return <BlogCard key={index} blog={blog} />;
   });
   return (
-    <section className="p-4 flex flex-col items-start mx-auto ">
-      <h1 className="mb-4 font-medium text-4xl">Blogs</h1>
-      <div className="flex flex-col flex-wrap justify-center gap-4 items-center sm:flex-row">
+    <section className="mx-auto flex flex-col items-center gap-10 p-8">
+      <h1 className="bounce-up text-4xl font-bold">Blogs</h1>
+      <div className="bounce-up flex flex-col flex-wrap items-center justify-center gap-4 sm:flex-row">
         {Blogs}
       </div>
     </section>
