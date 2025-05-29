@@ -1,3 +1,6 @@
+:root{
+  --card-bg: #ffffff3c;
+}
 ::-webkit-scrollbar {
   width: 6px;
   background: transparent;

@@ -14,7 +14,7 @@ const Blog = () => {
   }, []);
   return (
     <section className="py-8 px-4 flex items-center justify-center">
-      <div className="prose break-words flex-col justify-center max-w-full rounded-2xl border-2 border-transparent bg-[#ffffff3c] p-8 shadow-2xl">
+      <div className="prose break-words flex-col justify-center max-w-full rounded-lg  border-2 border-transparent bg-[var(--card-bg)] p-8 shadow-2xl">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={{

@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useState } from "react";
 
 const NavLinks = () => {
   const [open, setOpen] = useState(false);
+
 
   return (
     <nav className="relative flex items-center">
@@ -29,13 +30,13 @@ const NavLinks = () => {
         className={`fixed flex flex-col bounce-once max-sm:bg-gradient-to-br from-[#d25eb1] to-[#f3c190] font-bold shadow-md backdrop-blur-3xl transition-all duration-300 max-sm:top-14 max-sm:right-0 max-sm:left-0 max-sm:text-4xl sm:relative sm:w-auto sm:flex-row sm:items-center sm:space-x-15 sm:bg-transparent sm:shadow-none ${open ? "flex" : "hidden"} z-20 sm:flex`}
       >
         <Link to={"/"} onClick={() => setOpen(false)}>
-          <li className="cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5">
+          <li className={"cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5"}>
             Projects
           </li>
         </Link>
         <Link to={"/blogposts"} onClick={() => setOpen(false)}>
-          <li className="cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5">
-            Blog
+          <li className={"cursor-pointer rounded max-sm:border-b-1 max-sm:px-5 max-sm:py-5"}>
+            Blogs
           </li>
         </Link>
         <Link to={"/contact"} onClick={() => setOpen(false)}>

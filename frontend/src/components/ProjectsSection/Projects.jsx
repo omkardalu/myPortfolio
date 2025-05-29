@@ -17,7 +17,7 @@ const Projects = () => {
         "A Blog posting website where users can login, create blogs,like,share, follow, search etc. with professional text formater  ",
       tools: "CSS, React, Express, sqlite3",
       link: "https://writeandx.onrender.com",
-      github: "https://github.com/omkardalu/shivaji-omkar-write-X/tree/main",
+      github: "",
     },
     {
       name: "Quiz time",

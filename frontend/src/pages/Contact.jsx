@@ -14,8 +14,8 @@ const Contact = () => {
     console.log(data);
   };
   return (
-    <section id="contact" className="p-4 bounce-up">
-      <div className="mx-auto max-w-2xl rounded-lg bg-[#ffffff3c] p-6 shadow-xl backdrop-blur-xs">
+    <section id="contact" className="p-4 bounce-up my-auto">
+      <div className="mx-auto max-w-2xl rounded-lg bg-[var(--card-bg)] p-6 shadow-xl backdrop-blur-xs">
         <h1 className="mb-8 text-4xl font-bold text-inherit" ref={headingRef}>Contact Me</h1>
         <form onSubmit={handleSubmit} action={import.meta.env.VITE_FORMSPREE_URL} method='POST' className="space-y-6">
           <div>
