@@ -6,8 +6,13 @@ import Footer from "./layout/footer/Footer.jsx";
 import BlogPosts from "./pages/BlogPosts.jsx";
 import Blog from "./pages/Blog.jsx";
 import Contact from "./pages/Contact.jsx";
+import { useState } from "react";
+import Welcome from "./components/HeroSection/Welcome.jsx";
 function App() {
-  return (
+  const [hasNotWelcomed, setHasNotWelcomed] = useState(true);
+  return hasNotWelcomed ? (
+    <Welcome setHasNotWelcomed={setHasNotWelcomed} />
+  ) : (
     <section
       id="Portfolio"
       className="relative flex min-h-screen flex-col justify-between bg-gradient-to-br from-[#d25eb1] to-[#f3c190] text-[#250d23]"

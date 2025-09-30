@@ -50,10 +50,36 @@
   }
 }
 
+@keyframes enter-into{
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+@keyframes shrink-small{
+  0%{
+    width: 340px;
+  }
+  100%{
+    width: 0px;
+    transform: translateX(340px );
+  }
+}
+
 .bounce-up {
   animation: bounce-up 0.7s ease-in-out 1;
 }
 
 .bounce-once {
   animation: bounce-once 1s ease-in-out 1;
+}
+
+.enter{
+  animation: enter-into 0.8s ease-out 1;
+}
+
+.shrink{
+    animation: shrink-small 0.8s ease-out 1;
 }
