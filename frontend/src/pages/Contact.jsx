@@ -37,6 +37,7 @@ const Contact = () => {
               id="name"
               name="name"
               required
+              placeholder="Enter Your Name"
               className="mt-1 block w-full rounded-lg border border-gray-700 p-2"
             />
           </div>
@@ -52,6 +53,7 @@ const Contact = () => {
               id="email"
               name="email"
               required
+              placeholder="Enter Your Email"
               className="mt-1 block w-full rounded-lg border border-gray-700 p-2"
             />
           </div>
@@ -67,6 +69,7 @@ const Contact = () => {
               name="message"
               rows="4"
               required
+              placeholder="What's on your mind?"
               className="mt-1 block w-full rounded-lg border border-gray-700 p-2"
             ></textarea>
           </div>
