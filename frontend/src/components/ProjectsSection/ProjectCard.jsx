@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 import githubLogo from "../../assets/images/github-logo.svg";
 import upRightArrowLogo from "../../assets/images/up-right-arrow.png";
-const ProjectCard = ({ name, img, description, tools, link, github }) => {
+const ProjectCard = ({ name, img, description, tools, link, github,tag }) => {
   return (
-    <section className="m-4 flex w-[345px] flex-col justify-center rounded-lg border-2 border-[var(--card-bg-color)] bg-[var(--card-bg-color)] p-3 shadow-2xl backdrop-blur-xs transition-all duration-300 ease-in-out hover:bg-[#ffffff5e]">
-      <div className="px-2 text-2xl capitalize">{name}</div>
+    <section className="m-4 flex w-[345px] flex-col justify-center rounded-lg border-2 overflow-hidden border-[var(--card-bg-color)] bg-[var(--card-bg-color)] p-3 shadow-2xl backdrop-blur-xs transition-all duration-300 ease-in-out hover:bg-[#ffffff5e]">
+        <div className="px-2 text-2xl capitalize">{name}</div>
+        <div className={`absolute top-0 right-0  bg-[var(--card-bg-color)] px-4 py-1 text-[15px] text-[${tag === "new"? "#e85b5e":"#95287d"}] rounded-bl-2xl `}>{tag}</div>
       <div className="mt-1 flex h-[180px] w-[100%] items-center justify-center overflow-hidden rounded-lg border-2 border-[var(--card-bg-color)] shadow-md">
         <img className="h-full w-full object-cover" src={img} alt={name} />
       </div>

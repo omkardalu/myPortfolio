@@ -9,6 +9,17 @@ const Projects = () => {
       tools: "tailwindCSS, React",
       link: "https://omkar-x1nz.onrender.com/",
       github: "https://github.com/omkardalu/myPortfolio",
+      tag:"new",
+    },
+        {
+      name: "Quiz time",
+      img: "./images/quiz-time.png",
+      description:
+        "An interactive quiz application that allows users to test their knowledge, with features like timer, music and Score Board.",
+      tools: "HTML, CSS, JavaScript",
+      link: "https://omkardalu.github.io/quiz-time/",
+      github: "https://github.com/omkardalu/quiz-time",
+      tag:"new"
     },
     {
       name: "write&X",
@@ -18,15 +29,7 @@ const Projects = () => {
       tools: "CSS, React, Express, sqlite3",
       link: "https://writeandx.onrender.com",
       github: "",
-    },
-    {
-      name: "Quiz time",
-      img: "./images/quiz-time.png",
-      description:
-        "An interactive quiz application that allows users to test their knowledge, with features like timer, music and Score Board.",
-      tools: "HTML, CSS, JavaScript",
-      link: "https://omkardalu.github.io/quiz-time/",
-      github: "https://github.com/omkardalu/quiz-time",
+      tag:"new"
     },
     {
       name: "My Cart",
@@ -34,6 +37,7 @@ const Projects = () => {
       description: "A shopping website to display the available products",
       tools: "HTML, CSS",
       link: "./projects/mycart/index.html",
+      tag:"old"
     },
     {
       name: "Library Management",
@@ -42,6 +46,7 @@ const Projects = () => {
         "A Library Management System that allows users to manage book inventory, track borrowings.",
       tools: "HTML, CSS, js",
       link: "./projects/lms/index.html",
+      tag:"old"
     },
     {
       name: "window clone",
@@ -51,6 +56,7 @@ const Projects = () => {
       tools: "HTML, CSS",
       link: "https://omkardalu.github.io/windows-clone/",
       github: "https://github.com/omkardalu/windows-clone",
+      tag:"old"
     },
     {
       name: "squareSpace clone",
@@ -60,6 +66,7 @@ const Projects = () => {
       tools: "HTML, CSS",
       link: "https://omkardalu.github.io/Squarespace/",
       github: "https://github.com/omkardalu/Squarespace",
+      tag:"old"
     },
     {
       name: "apple clone",
@@ -69,6 +76,7 @@ const Projects = () => {
       tools: "HTML, CSS",
       link: "https://omkardalu.github.io/apple-clone/",
       github: "https://github.com/omkardalu/apple-clone",
+      tag:"old"
     },
 
     {
@@ -79,6 +87,7 @@ const Projects = () => {
       tools: "HTML, CSS",
       link: "https://jovial-puppy-c62964.netlify.app/",
       github: "https://github.com/path-tw/my-clone-omkardalu",
+      tag:"old"
     },
 
     // {
@@ -99,6 +108,7 @@ const Projects = () => {
       tools={project.tools}
       link={project.link}
       github={project.github}
+      tag={project.tag}
     />
   ));
   return (
