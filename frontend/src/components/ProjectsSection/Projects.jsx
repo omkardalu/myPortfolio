@@ -64,6 +64,22 @@ const Projects = () => {
       link: "https://jovial-puppy-c62964.netlify.app/",
       github: "https://github.com/path-tw/my-clone-omkardalu",
     },
+    {
+      name: "Library Management",
+      img: "./images/lms.png",
+      description:
+        "A Library Management System that allows users to manage book inventory, track borrowings.",
+      tools: "HTML, CSS, js",
+      link: "./projects/lms/index.html",
+    },
+    // {
+    //   name: "Pokemon Collection",
+    //   img: "./images/pokemon-collection.png",
+    //   description:
+    //     "A Pokemon Collection app that allows users to view, search a list of Pokemon.",
+    //   tools: "CSS, react.js",
+    //   link: "./projects/pokemoncollection/index",
+    // },
   ];
   const projectsList = projects.map((project) => (
     <ProjectCard
