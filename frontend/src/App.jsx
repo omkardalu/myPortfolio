@@ -10,13 +10,10 @@ import { useState } from "react";
 import Welcome from "./components/HeroSection/Welcome.jsx";
 function App() {
   const [hasNotWelcomed, setHasNotWelcomed] = useState(true);
-  return hasNotWelcomed ? (
-    <Welcome setHasNotWelcomed={setHasNotWelcomed} />
-  ) : (
-    <section
-      id="Portfolio"
+  <section
+  id="Portfolio"
       className="relative flex min-h-screen flex-col justify-between bg-gradient-to-br from-[#d25eb1] to-[#f3c190] text-[#250d23]"
-    >
+      >
       <Header />
       <main className="flex h-full grow-2 flex-col">
         <Routes>
@@ -28,7 +25,9 @@ function App() {
       </main>
       <Footer />
     </section>
-  );
+  return (
+    <Welcome setHasNotWelcomed={setHasNotWelcomed} />
+  )
 }
 
 export default App;
