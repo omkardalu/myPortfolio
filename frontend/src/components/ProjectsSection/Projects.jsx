@@ -29,6 +29,21 @@ const Projects = () => {
       github: "https://github.com/omkardalu/quiz-time",
     },
     {
+      name: "My Cart",
+      img: "./images/mycart.png",
+      description: "A shopping website to display the available products",
+      tools: "HTML, CSS",
+      link: "./projects/mycart/index.html",
+    },
+    {
+      name: "Library Management",
+      img: "./images/lms.png",
+      description:
+        "A Library Management System that allows users to manage book inventory, track borrowings.",
+      tools: "HTML, CSS, js",
+      link: "./projects/lms/index.html",
+    },
+    {
       name: "window clone",
       img: "./images/windows-clone.png",
       description:
@@ -36,15 +51,6 @@ const Projects = () => {
       tools: "HTML, CSS",
       link: "https://omkardalu.github.io/windows-clone/",
       github: "https://github.com/omkardalu/windows-clone",
-    },
-    {
-      name: "apple clone",
-      img: "./images/apple-clone.png",
-      description:
-        "A clone of the Apple website's homepage UI, showcasing its products and features.",
-      tools: "HTML, CSS",
-      link: "https://omkardalu.github.io/apple-clone/",
-      github: "https://github.com/omkardalu/apple-clone",
     },
     {
       name: "squareSpace clone",
@@ -56,6 +62,16 @@ const Projects = () => {
       github: "https://github.com/omkardalu/Squarespace",
     },
     {
+      name: "apple clone",
+      img: "./images/apple-clone.png",
+      description:
+        "A clone of the Apple website's homepage UI, showcasing its products and features.",
+      tools: "HTML, CSS",
+      link: "https://omkardalu.github.io/apple-clone/",
+      github: "https://github.com/omkardalu/apple-clone",
+    },
+
+    {
       name: "flipkart clone",
       img: "./images/flipkart-clone.png",
       description:
@@ -64,14 +80,7 @@ const Projects = () => {
       link: "https://jovial-puppy-c62964.netlify.app/",
       github: "https://github.com/path-tw/my-clone-omkardalu",
     },
-    {
-      name: "Library Management",
-      img: "./images/lms.png",
-      description:
-        "A Library Management System that allows users to manage book inventory, track borrowings.",
-      tools: "HTML, CSS, js",
-      link: "./projects/lms/index.html",
-    },
+
     // {
     //   name: "Pokemon Collection",
     //   img: "./images/pokemon-collection.png",

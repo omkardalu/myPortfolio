@@ -2,8 +2,8 @@ const HeroSection = () => {
   return (
     <section
       id="hero-section"
-      className="bounce-once mt-[-52px] flex h-screen items-center justify-center"
-    >
+      className="bounce-once mt-[-52px] relative flex h-screen items-center justify-center"
+    ><div className="absolute bottom-10 rotate-180 flex flex-col items-center text-3xl"><div>^</div><div className="absolute">|</div></div>
       <div className="flex flex-col flex-wrap items-center justify-center p-4 sm:flex-row">
         <div className="flex h-[280px] w-[280px] flex-col items-center justify-center overflow-hidden rounded-full border-3 border-[var(--card-bg-color)] shadow-2xl max-sm:mt-12">
           <img
