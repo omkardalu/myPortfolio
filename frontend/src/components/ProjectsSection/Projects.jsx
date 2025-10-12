@@ -7,7 +7,7 @@ const Projects = () => {
       description:
         "A Portfolio website that shows all my projects,skills and information  ",
       tools: "tailwindCSS, React",
-      link: "https://omkardalu.onrender.com/",
+      link: "https://omkar-x1nz.onrender.com/",
       github: "https://github.com/omkardalu/myPortfolio",
       tag:"new",
     },
