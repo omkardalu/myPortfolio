@@ -31,14 +31,14 @@ const Projects = () => {
       github: "",
       tag:"new"
     },
-    // {
-    //   name: "My Cart",
-    //   img: "./images/mycart.png",
-    //   description: "A shopping website to display the available products",
-    //   tools: "HTML, CSS",
-    //   link: "./projects/mycart/index.html",
-    //   tag:"old"
-    // },
+    {
+      name: "My Cart",
+      img: "./images/mycart.png",
+      description: "A shopping website to display the available products",
+      tools: "HTML, CSS",
+      link: "./projects/mycart/index.html",
+      tag:"old"
+    },
     {
       name: "Library Management",
       img: "./images/lms.png",
