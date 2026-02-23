@@ -4,7 +4,7 @@ Personal developer portfolio (frontend) built with React and Vite. This reposito
 
 ## Live Preview
 
-[👉 Live Here]("https://omkardalu.onrender.com/")
+Live Here: https://omkardalu.onrender.com/
 
 ## Where to find the frontend
 
