@@ -11,7 +11,7 @@
 
 ##  Live Preview
 
-👉 [omkar-x1nz.onrender.com](https://omkar-x1nz.onrender.com/)
+👉 [omkardalu.onrender.com](https://omkardalu.onrender.com/)
 
 ##  Blog Example
 
@@ -27,7 +27,7 @@
 
 ##  Contact
 
-Want to connect? Hit me up on [LinkedIn](https://www.linkedin.com/in/omkar-dalu-004169301/) or drop a message on my [contact page](https://omkar-x1nz.onrender.com/contact).
+Want to connect? Hit me up on [LinkedIn](https://www.linkedin.com/in/omkar-dalu-004169301/) or drop a message on my [contact page](https://omkardalu.onrender.com/contact).
 
 ---
 
